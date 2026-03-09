@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anita Nikolov</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: rgb(94, 28, 94);
+            margin: 0;
+            flex: 1;
+            font-size: 1.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex: 2;
+        }
+
+        .header-spacer {
+            flex: 1;
+            display: block;
+        }
+
+        nav a {
+            color: rgb(201, 18, 110);
+            text-decoration: none;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+
+            .header-spacer {
+                display: none;
+            }
+
+            h1 {
+                flex: none;
+            }
+        }
+
+        .kuva-astia {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .luontokuva {
+            width: 60%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .varilaatikko {
+            background-color: rgb(241, 203, 211);
+            width: 95%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 25px;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Anita Nikolov</h1>
+
+    <nav>
+        <a href="index.html">Etusivu</a>
+        <a href="Sivu2.html">Osaaminen</a>
+        <a href="Sivu3.html">Yhteystiedot</a>
+    </nav>
+
+
+    <div class="varilaatikko">
+
+        <h3>Yhteydenotto </h3>
+
+
+        <p>
+            Yhteydenotot sähköpostitse, toimitan tarvittaessa CV:n ja suosittelijoiden tiedot sekä muut
+            tarvittavat
+            yhteystiedot.
+            <br>
+            <br>
+            anita.nikolov@myy.haaga-helia.fi
+        </p>
+    </div>
+    <br>
+    <br>
+
+    <div class="kuva-astia">
+        <img src="kuva2.jpg" class="luontokuva" alt="Palmut">
+    </div>
+    <br>
+
+    <div class="varilaatikko">
+        <p>
+            Työskentelen tällä hetkellä Torreviejassa, Espanjassa.<br>
+            Opiskelen Haaga-Heliassa monimuoto- ja etätoteutuksessa.<br>
+            Matkustan tasaisin väliajoin Suomeen.<br>
+            Työni ja opiskeluni mahdollistavat minulle kahdessa maassa
+            oleskelun, <br>ja olen kiinnostunut työ- ja yhteistyömahdollisuuksista sekä Espanjassa että Suomessa.
+
+        </p>
+    </div>
+
+
+
+</body>

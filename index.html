@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anita Nikolov</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: rgb(94, 28, 94);
+            margin: 0;
+            flex: 1;
+            font-size: 1.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex: 2;
+        }
+
+        .header-spacer {
+            flex: 1;
+            display: block;
+        }
+
+        nav a {
+            color: rgb(201, 18, 110);
+            text-decoration: none;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+
+            .header-spacer {
+                display: none;
+            }
+
+            h1 {
+                flex: none;
+            }
+        }
+
+        .kuva-astia {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .profiilikuva {
+            width: 60%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .varilaatikko {
+            background-color: rgb(241, 203, 211);
+            width: 95%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 25px;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Anita Nikolov</h1>
+
+    <nav>
+        <a href="index.html">Etusivu</a>
+        <a href="Sivu2.html">Osaaminen</a>
+        <a href="Sivu3.html">Yhteystiedot</a>
+    </nav>
+
+    <div class="kuva-astia">
+        <img src="kuva.jpg.jpg" class="profiilikuva" alt="Anita">
+    </div>
+
+    <div class="varilaatikko">
+        <p><strong>Tervetuloa verkkosivuilleni!</strong></p>
+
+        <p>
+            Olen Anita, kolmekymppinen utelias ja avoin,
+            <br>kansainvälinen ja järjestelmällinen moniosaaja. <br>Olen opiskellut kieliä,
+            matkustellut ja asunut <br>eri maissa sekä kerryttänyt kokemusta <br>monenlaisista
+            harrastuksista ja työpaikoista. <br>Vahvuuksiini kuuluvat sosiaaliset taidot,
+            ratkaisukeskeisyys <br>ja kiinnostus oppia uutta ja kehittyä.
+            <br>
+        </p>
+        <p>
+            Nautin eniten työympäristöistä, joissa pääsen hyödyntämään luovuuttani ja <br>
+            osaamistani sekä haastamaan itseäni. Viihdyn muiden seurassa ja tulen toimeen
+            <br>erilaisten ihmisten kanssa, mutta arvostan myös omaa tilaa ja yksinoloa.
+            <br>Tällä verkkosivulla pääset tutustumaan työhistoriaani ja osaamiseeni, <br>ja
+            Yhteystiedot-sivulta selviää, miten minut saa kiinni.
+            <br>
+        </p>
+
+        <p><em>Toivottavasti tavataan pian!</em></p>
+    </div>
+
+</body>
+
+</html>
